@@ -109,7 +109,7 @@
 
 xcopy "$(ProjectDir)About" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\About" /i /e /r /y
 xcopy "$(ProjectDir)Assemblies" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies" /i /e /r /y
-xcopy "$(ProjectDir)Common\Languages" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\Common\Languages" /i /e /r /y
+xcopy "$(ProjectDir)Common" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\Common" /i /e /r /y
 
 cd $(ProjectDir)
 del /f /s /q bin
