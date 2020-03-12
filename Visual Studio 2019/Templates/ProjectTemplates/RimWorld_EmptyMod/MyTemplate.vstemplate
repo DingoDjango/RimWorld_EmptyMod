@@ -18,6 +18,7 @@
     <Project TargetFileName="RimWorld_EmptyMod.csproj" File="RimWorld_EmptyMod.csproj" ReplaceParameters="true">
       <Folder Name="About" TargetFolderName="About">
         <ProjectItem ReplaceParameters="false" TargetFileName="About.xml">About.xml</ProjectItem>
+		<ProjectItem ReplaceParameters="false" TargetFileName="Manifest.xml">Manifest.xml</ProjectItem>
       </Folder>
       <Folder Name="Assemblies" TargetFolderName="Assemblies" />
       <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>

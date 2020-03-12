@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About\About.xml" />
+	<Content Include="About\Manifest.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assemblies\" />
